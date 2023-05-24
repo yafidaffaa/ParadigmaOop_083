@@ -13,7 +13,7 @@ public:
 	~pasien() {
 		cout << "Pasien \"" << nama << "\" tidak ada\n";
 	}
-	void tembahkanDokter(dokter*);
+	void tembahDokter(dokter*);
 	void cetakDokter();
 };
 
@@ -25,4 +25,10 @@ public:
 	dokter(string pNama) :nama(pNama) {
 		cout << "Dokter \"" << nama << "\"ada\n";
 	}
+	~dokter() {
+		cout << "Dokter \"" << nama << "\"tidak ada\n";
+	}
+
+	void tambahPasien(pasien*);
+	void cetakPasien();
 };
