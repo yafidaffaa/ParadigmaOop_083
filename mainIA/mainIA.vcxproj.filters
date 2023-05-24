@@ -15,12 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Asosiasi.cpp">
+    <ClCompile Include="mainIA.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ibu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="anak.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
